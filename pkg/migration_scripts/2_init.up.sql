@@ -1,0 +1,1 @@
+create table roles(id int, name varchar(255), description varchar(255), CONSTRAINT PRIMARY KEY(id));

@@ -1,0 +1,1 @@
+create table users_tags (user_id int, tag_id int, CONSTRAINT FOREIGN KEY (user_id)  REFERENCES users(id), FOREIGN KEY (tag_id)  REFERENCES tags(id), CONSTRAINT PRIMARY KEY(user_id,tag_id));
