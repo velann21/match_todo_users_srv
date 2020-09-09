@@ -1,0 +1,1 @@
+create table users_roles(users_id int, roles_id int, CONSTRAINT PRIMARY KEY(users_id,roles_id), FOREIGN KEY (users_id) REFERENCES users(id), FOREIGN KEY (roles_id) REFERENCES roles(id));
